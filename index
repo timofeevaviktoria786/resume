@@ -45,13 +45,7 @@
             margin-bottom: 15px;
         }
         
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-top: 10px;
-        }
+ 
         
         .contact-info a {
             color: #9729b9;
