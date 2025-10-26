@@ -1,0 +1,313 @@
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Тимофеева Виктория</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #afabab;
+        }
+        
+        .container {
+            background: rgb(255, 255, 255);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        
+        .contact-info a {
+            color: #9729b9;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .contact-info a:hover {
+            color: #9729b9;
+            text-decoration: underline;
+        }
+        
+        section {
+            margin-bottom: 25px;
+        }
+        
+        h2 {
+            color: #c623db;
+            border-bottom: 1px solid #ecf0f1;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+        
+        h3 {
+            color: #c623db;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "•";
+            color: #7807ac;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .education-item, .job-item {
+            margin-bottom: 15px;
+        }
+        
+        .education-item strong, .job-item strong {
+            color: #c623db;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+            
+            h2 {
+                font-size: 18px;
+            }
+        }
+        .subscribe-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 2px solid #e9ecef;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #c623db
+}
+
+.subscribe-btn {
+    background: linear-gradient(135deg, #c623db, #941da3);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 10px;
+}
+
+.subscribe-btn:hover {
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+}
+
+.success-message {
+    color: #27ae60;
+    font-weight: bold;
+    margin-top: 10px;
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Тимофеева Виктория</h1>
+            <div class="subtitle">Студентка ИСП-23-2</div>
+            <div class="contact-info">
+                <a href="mailto:timofeevaviktoria786@mail.ru">timofeevaviktoria786@mail.ru</a>
+                <span>+8 (800) 535 35-35</span>
+                <a href="#">Старый Оскол, Россия</a>
+            </div>
+        </header>
+
+        <section class="about">
+            <h2>О себе</h2>
+            <p>Будущий специалист в сфере информационных технологий.</p>
+        </section>
+
+        <section class="desired-job">
+            <h2>Желаемая работа</h2>
+            <div class="job-item">
+                <h3>Frontend-разработчик</h3>
+                <ul>
+                    <li>Разработка и поддержка клиентской части веб-приложения</li>
+                    <li>Оптимизация производительности приложения</li>
+                    <li>Code review и менторство junior разработчиков</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Образование</h2>
+            <div class="education-item">
+                <strong>МБОУ "ЦО-СШ №22"</strong><br>
+                2014 - 2023
+            </div>
+             <div class="education-item">
+                <strong>ОПК СТИ НИТУ МИСИС</strong><br>
+                2023 - 2027
+            </div>
+        </section>
+
+        <section class="languages">
+            <h2>Навыки</h2>
+            <ul>
+                <li>Python</li>
+                <li>Html</li>
+                 <li>css</li>
+                  <li>C#</li>
+                   <li>Pascal</li>
+            </ul>
+        </section>
+    </div>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const footer = document.createElement('footer');
+            footer.style.textAlign = 'center';
+            footer.style.marginTop = '30px';
+            footer.style.color = '#7f8c8d';
+            footer.style.fontSize = '14px';
+            footer.innerHTML = `Резюме обновлено: ${new Date().getFullYear()}`;
+            document.querySelector('.container').appendChild(footer);
+        });
+    </script>
+<section class="subscribe-section">
+    <h2>Будьте в курсе новостей</h2>
+    <div class="subscribe-form">
+        <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="your.email@example.com" required>
+        </div>
+        <button class="subscribe-btn" onclick="subscribeNewsletter()">
+            📧 Подписаться на новости
+        </button>
+        <div class="success-message" id="successMessage">
+            ✅ Спасибо за подписку! Проверьте вашу почту.
+        </div>
+    </div>
+</section>
+
+<script>
+    function subscribeNewsletter() {
+        const email = document.getElementById('email').value;
+        const successMessage = document.getElementById('successMessage');
+        
+        if (email && email.includes('@')) {
+            console.log('Подписка оформлена для:', email);
+            
+            successMessage.style.display = 'block';
+            
+            document.getElementById('email').value = '';
+            
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+            }, 5000);
+        } else {
+            alert('Пожалуйста, введите корректный email адрес');
+        }
+    }
+    
+        }
+    });
+</script>
+</body>
+</html>
